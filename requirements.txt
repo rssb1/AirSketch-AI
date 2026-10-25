@@ -1,0 +1,11 @@
+# Tested target: Python 3.10-3.12 (MediaPipe 0.10.14 wheels exist for 3.9-3.12).
+numpy>=1.26,<2
+opencv-python>=4.8,<4.11
+mediapipe==0.10.14
+pygame>=2.5.2
+Pillow>=10.0
+python-dotenv>=1.0
+# Optional AI evaluation (without it the app uses the offline comparison):
+openai>=1.40
+# Tests:
+pytest>=8.0
